@@ -30,16 +30,16 @@ bmi = round(bmi, 1)
 # TODO: Рассчитай water_needed
 water_ml = user_weight * 30
 water_needed = water_ml / 1000
-water_needed = round(water_l, 1)
+water_needed = round(water_needed, 1)
 
 # 4. Вывод красивого результата
 # TODO: Используй f-строку, чтобы вывести приветствие, например: "Привет, Иван!"
 # TODO: Выведи возраст, ИМТ (округленный до 1 знака) и норму воды.
-print(f'Отчет для пользователя:', user_name,',',user_age,'лет')
+print(f'Отчет для пользователя: {user_name}, {user_age} лет')
 time.sleep(2)
-print(f'Твой Индекс Массы Тела:', bmi)
+print(f'Твой Индекс Массы Тела: {bmi}')
 time.sleep(2)
-print(f'Рекомендуемая норма воды:', water_needed,'л. в день')
+print(f'Рекомендуемая норма воды: {water_needed} л. в день')
 time.sleep(2)
 print('')
 print("Расчет окончен. Будьте здоровы!")
