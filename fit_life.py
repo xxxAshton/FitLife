@@ -29,10 +29,7 @@ water_needed = round(water_needed, 1)
 
 # 4. Вывод красивого результата
 print(f'Отчет для пользователя: {user_name}, {user_age} лет')
-time.sleep(2)
 print(f'Твой Индекс Массы Тела: {bmi}')
-time.sleep(2)
 print(f'Рекомендуемая норма воды: {water_needed} л. в день')
-time.sleep(2)
 print('')
 print("Расчет окончен. Будьте здоровы!")
